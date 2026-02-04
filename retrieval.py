@@ -3,15 +3,33 @@
 import json
 import faiss
 import numpy as np
+import nltk
+import string
+
 from sentence_transformers import SentenceTransformer
 from rank_bm25 import BM25Okapi
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-import string
 
-# -------------------------
-# Globals (initialized lazily)
-# -------------------------
+
+# =====================================================
+# Ensure NLTK resources (Cloud-safe)
+# =====================================================
+def ensure_nltk():
+    try:
+        nltk.data.find("tokenizers/punkt")
+    except LookupError:
+        nltk.download("punkt", quiet=True)
+
+    try:
+        nltk.data.find("corpora/stopwords")
+    except LookupError:
+        nltk.download("stopwords", quiet=True)
+
+
+# =====================================================
+# Global state (lazy, cached)
+# =====================================================
 _processed_chunks = None
 _embedder = None
 _faiss_index = None
@@ -19,28 +37,36 @@ _bm25 = None
 _stop_words = None
 
 
-# -------------------------
-# Initializer (RUN ONCE)
-# -------------------------
+# =====================================================
+# Initializer (idempotent)
+# =====================================================
 def load_retriever():
     global _processed_chunks, _embedder, _faiss_index, _bm25, _stop_words
 
-    if _faiss_index is not None:
-        return  # already initialized
+    # Already initialized
+    if _faiss_index is not None and _bm25 is not None:
+        return
 
-    # Load chunks
+    print("🔧 Initializing retriever...")
+
+    ensure_nltk()
+    _stop_words = set(stopwords.words("english"))
+
+    # Load corpus
     with open("data/wikipedia_corpus_chunks.json", "r", encoding="utf-8") as f:
         _processed_chunks = json.load(f)
 
     texts = [c["text"] for c in _processed_chunks]
 
-    # Dense model
+    # -------------------------
+    # Dense retrieval (FAISS)
+    # -------------------------
     _embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
     embeddings = _embedder.encode(
         texts,
         convert_to_numpy=True,
-        show_progress_bar=True
+        show_progress_bar=False   # ✅ MUST be False on Streamlit Cloud
     )
 
     embeddings = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
@@ -49,9 +75,9 @@ def load_retriever():
     _faiss_index = faiss.IndexFlatIP(dim)
     _faiss_index.add(embeddings.astype("float32"))
 
-    # Sparse (BM25)
-    _stop_words = set(stopwords.words("english"))
-
+    # -------------------------
+    # Sparse retrieval (BM25)
+    # -------------------------
     def preprocess(text):
         tokens = word_tokenize(text.lower())
         return [
@@ -61,13 +87,19 @@ def load_retriever():
             and len(t) > 1
         ]
 
-    tokenized = [preprocess(t) for t in texts]
-    _bm25 = BM25Okapi(tokenized)
+    tokenized_texts = [preprocess(t) for t in texts]
+
+    if not tokenized_texts:
+        raise RuntimeError("BM25 initialization failed: no tokenized texts")
+
+    _bm25 = BM25Okapi(tokenized_texts)
+
+    print("✅ Retriever ready")
 
 
-# -------------------------
+# =====================================================
 # Retrieval methods
-# -------------------------
+# =====================================================
 def reciprocal_rank_fusion(dense_ids, sparse_ids, k=60, top_n=5):
     scores = {}
 
