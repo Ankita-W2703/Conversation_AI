@@ -60,7 +60,7 @@ def run_pipeline():
     # -------------------------
     # Evaluation phase (NO GENERATION)
     # -------------------------
-    metrics = full_evaluation(predictions)
+    metrics = full_evaluation(qa_dataset)
 
     json_path = REPORT_DIR / "metrics.json"
     with open(json_path, "w", encoding="utf-8") as f:
