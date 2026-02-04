@@ -1,0 +1,802 @@
+[
+  {
+    "question_id": "35491bff-a2c8-4f2e-a020-b457b497e8e3",
+    "question": "What was the name of the person who was a consort to her half-brother?",
+    "answer": "Empress Suiko",
+    "source_url": "https://en.wikipedia.org/wiki/Empress_Suiko",
+    "source_title": "Empress Suiko",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "3bf6e5fc-202f-4d26-8485-607ec09ebd67",
+    "question": "How many children did Empress Suiko have?",
+    "answer": "eight",
+    "source_url": "https://en.wikipedia.org/wiki/Empress_Suiko",
+    "source_title": "Empress Suiko",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "087610e2-4b77-4d70-8a0c-fd839cc11ee0",
+    "question": "Why did Suiko's brother die?",
+    "answer": "illness",
+    "source_url": "https://en.wikipedia.org/wiki/Empress_Suiko",
+    "source_title": "Empress Suiko",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "bab91f76-33ff-4a07-bc7d-da5cc0b18710",
+    "question": "What is the best title of the passage? (A) Empress Suiko. (B) Empress Suiko. (C) Empress Suiko.",
+    "answer": "(C)",
+    "source_url": "https://en.wikipedia.org/wiki/Empress_Suiko",
+    "source_title": "Empress Suiko",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "a88ed6fc-310e-45e2-b15c-e549fef3dd71",
+    "question": "What award was awarded to Masters in 2004?",
+    "answer": "Master Designer",
+    "source_url": "https://en.wikipedia.org/wiki/Richard_Alan_Masters",
+    "source_title": "Richard Alan Masters",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "15e4554d-31be-4055-943a-1966cdd64e16",
+    "question": "What was the award that Masters received in 2004?",
+    "answer": "Allied Artists of American top award, the Audrey Love Memorial Award in 2021",
+    "source_url": "https://en.wikipedia.org/wiki/Richard_Alan_Masters",
+    "source_title": "Richard Alan Masters",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "b01d5fec-f3bb-4c17-9dfb-97a4d65ec078",
+    "question": "How many years after graduating from the University of Iowa art school did Masters graduate?",
+    "answer": "3",
+    "source_url": "https://en.wikipedia.org/wiki/Richard_Alan_Masters",
+    "source_title": "Richard Alan Masters",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "9ffc0a86-243e-49c1-99c5-39edc1c8ab24",
+    "question": "What award did Masters receive? (A) The Audrey Love Memorial Award. (B) The Allied Artists of American top award. (C) The Allied Artists of American top award.",
+    "answer": "(B)",
+    "source_url": "https://en.wikipedia.org/wiki/Richard_Alan_Masters",
+    "source_title": "Richard Alan Masters",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "6efa7bee-062c-4ea9-bf44-b92383b208d2",
+    "question": "What was the name of the company that Wood and Hoskinson co-founded?",
+    "answer": "IOHK",
+    "source_url": "https://en.wikipedia.org/wiki/Cardano_(blockchain_platform)",
+    "source_title": "Cardano (blockchain platform)",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "7b668bcf-23a6-49b8-9660-6a0be645369f",
+    "question": "What year was the first time that Cardano was released to the public?",
+    "answer": "2017",
+    "source_url": "https://en.wikipedia.org/wiki/Cardano_(blockchain_platform)",
+    "source_title": "Cardano (blockchain platform)",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "efd20f56-1e98-40ca-b45e-31dcf85f6560",
+    "question": "How did the Cardano Foundation come about?",
+    "answer": "Charles Hoskinson and Jeremy Wood set out their plans for establishing Cardano in 2015",
+    "source_url": "https://en.wikipedia.org/wiki/Cardano_(blockchain_platform)",
+    "source_title": "Cardano (blockchain platform)",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "4559eb01-c443-4768-a6fa-73925e10b203",
+    "question": "What is the main idea of the passage?",
+    "answer": "Cardano is a public decentralized blockchain platform which uses the cryptocurrency, ADA, to facilitate transactions",
+    "source_url": "https://en.wikipedia.org/wiki/Cardano_(blockchain_platform)",
+    "source_title": "Cardano (blockchain platform)",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "c44491cd-1acc-4b90-a38d-8acc937ec1f1",
+    "question": "What is the name of the hill that was visited by the geological survey team?",
+    "answer": "Lesnovo Hill",
+    "source_url": "https://en.wikipedia.org/wiki/Lesnovo_Hill",
+    "source_title": "Lesnovo Hill",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "12732383-26bc-4d6a-b84f-160bca34da3a",
+    "question": "Which is the largest mountain in the British Antarctic Territory?",
+    "answer": "Mount Cupola",
+    "source_url": "https://en.wikipedia.org/wiki/Lesnovo_Hill",
+    "source_title": "Lesnovo Hill",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "ce07617c-d88a-43c3-86e5-a5c66663f334",
+    "question": "How far is the hill from the centre of the mountain?",
+    "answer": "10.95 km",
+    "source_url": "https://en.wikipedia.org/wiki/Lesnovo_Hill",
+    "source_title": "Lesnovo Hill",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "0f9db037-2c31-44a9-9536-e5f76c4c65aa",
+    "question": "What is the name of the hill that was visited by the geological survey team? (A) Lesnovo Hill. (B) Lesnovo Hill. (C) Lesnovo Hill.",
+    "answer": "(A)",
+    "source_url": "https://en.wikipedia.org/wiki/Lesnovo_Hill",
+    "source_title": "Lesnovo Hill",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "8dd6e277-4d51-4313-ba63-568f7b071b4e",
+    "question": "What was the first song Schroeder wrote for Elvis Presley?",
+    "answer": "A Big Hunk o' Love",
+    "source_url": "https://en.wikipedia.org/wiki/Aaron_Schroeder",
+    "source_title": "Aaron Schroeder",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "df6492ce-7130-454f-a73a-ac0f15c6bc63",
+    "question": "What was the highest number of songs written by Aaron Schroeder?",
+    "answer": "1500",
+    "source_url": "https://en.wikipedia.org/wiki/Aaron_Schroeder",
+    "source_title": "Aaron Schroeder",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "0bad725c-d835-450b-818e-bb214499645b",
+    "question": "How many songs did Schroeder write for Elvis Presley?",
+    "answer": "seventeen",
+    "source_url": "https://en.wikipedia.org/wiki/Aaron_Schroeder",
+    "source_title": "Aaron Schroeder",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "e69483df-e579-4312-94e2-c45fc21a0e26",
+    "question": "What is the best title of the passage?",
+    "answer": "Aaron Schroeder",
+    "source_url": "https://en.wikipedia.org/wiki/Aaron_Schroeder",
+    "source_title": "Aaron Schroeder",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "1064ba8a-ac61-40fa-a24f-9e60086642c5",
+    "question": "What was Cheung's occupation?",
+    "answer": "politician",
+    "source_url": "https://en.wikipedia.org/wiki/Cheung_Yin-tung",
+    "source_title": "Cheung Yin-tung",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "c124e01f-29a7-4f33-848b-841066b54977",
+    "question": "What was the name of the party Cheung was a member of?",
+    "answer": "Democratic Party",
+    "source_url": "https://en.wikipedia.org/wiki/Cheung_Yin-tung",
+    "source_title": "Cheung Yin-tung",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "bb5d2499-8ecf-4d21-8e35-7bcaa282036b",
+    "question": "how did he become a teacher",
+    "answer": "After he graduated, he became a teacher.",
+    "source_url": "https://en.wikipedia.org/wiki/Cheung_Yin-tung",
+    "source_title": "Cheung Yin-tung",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "3bd44f7d-32ab-4f74-a9e6-4c48fdb372be",
+    "question": "Question: What was the result of Cheung's election?Options:A He lost to Leung Che-cheung.B He was elected to the Yuen Long District Board.C He was defeated by Leung Che-cheung.D He was elected to the Yuen Long District Board.Answer:A",
+    "answer": "A",
+    "source_url": "https://en.wikipedia.org/wiki/Cheung_Yin-tung",
+    "source_title": "Cheung Yin-tung",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "0bb8a795-8c8a-4b37-918c-9dab9f73124e",
+    "question": "What is the term \"linear combination\"?",
+    "answer": "an expression constructed from a set of terms by multiplying each term by a constant and adding the results",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_combination",
+    "source_title": "Linear combination",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "ae97e74c-fd48-44d9-9738-4d69a6fb61d5",
+    "question": "What is the linear combination of a vector space over a field?",
+    "answer": "a 1 v 1 + a 2 v 2 + a 3 v 3 +  + a n v n",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_combination",
+    "source_title": "Linear combination",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "7b1fa510-7e2e-4d9c-bae6-265712dcb0b9",
+    "question": "How do we know that the vector space is a vector space over a field?",
+    "answer": "If v1,...,vn are vectors and a1,...,an are scalars, then the linear combination of those vectors with those scalars as coefficients is a 1 v 1 + a 2 v 2 + a 3 v 3 +  + a n v n .",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_combination",
+    "source_title": "Linear combination",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "eab2cd3a-aa78-4e1a-a064-8ebdb5723e42",
+    "question": "What is the most common way to describe a linear combination?",
+    "answer": "vector space over a field",
+    "source_url": "https://en.wikipedia.org/wiki/Linear_combination",
+    "source_title": "Linear combination",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "d2a3e72d-f510-4ba2-82df-26b6d3cbba7d",
+    "question": "What is a checklist used to ensure?",
+    "answer": "safety-critical system preparations are carried out completely and in the correct order, and in less critical applications to ensure that no step is left out of a procedure",
+    "source_url": "https://en.wikipedia.org/wiki/Checklist",
+    "source_title": "Checklist",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "18f3ccbb-5c66-4048-afba-861663c80d54",
+    "question": "What is a checklist used for?",
+    "answer": "to ensure that safety-critical system preparations are carried out completely and in the correct order, and in less critical applications to ensure that no step is left out of a procedure",
+    "source_url": "https://en.wikipedia.org/wiki/Checklist",
+    "source_title": "Checklist",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "bc3fe8a3-37a8-46c4-9a9c-a130e0eb0a1e",
+    "question": "Why is a checklist important?",
+    "answer": "They help to ensure consistency and completeness in carrying out a task",
+    "source_url": "https://en.wikipedia.org/wiki/Checklist",
+    "source_title": "Checklist",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "3516e6ab-7737-4484-8252-117dba9ce01c",
+    "question": "Question: What is the purpose of a checklist?Options:A To ensure that safety-critical system preparations are carried out completely and in the correct order.B To ensure that no step is left out of a procedure.C To ensure that no step is left out of a procedure.D To ensure that no step is left out of a procedure.Answer:A",
+    "answer": "A",
+    "source_url": "https://en.wikipedia.org/wiki/Checklist",
+    "source_title": "Checklist",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "35e66fe1-895c-40d3-9ab0-2c1a914776ca",
+    "question": "What year did Van der Woude graduate from the University of Groningen?",
+    "answer": "1908",
+    "source_url": "https://en.wikipedia.org/wiki/Willem_van_der_Woude",
+    "source_title": "Willem van der Woude",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "40728f08-fd7d-4bc6-bd6a-89892ae898d5",
+    "question": "What year was Van der Woude born?",
+    "answer": "15 January 1876",
+    "source_url": "https://en.wikipedia.org/wiki/Willem_van_der_Woude",
+    "source_title": "Willem van der Woude",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "d291a5ba-d874-4661-ad29-353b7d1e4619",
+    "question": "He was rector magnificus of the University of Leiden during three separate periods: 1934\u20131935, 1941\u201343 and 1945 (un )",
+    "answer": "",
+    "source_url": "https://en.wikipedia.org/wiki/Willem_van_der_Woude",
+    "source_title": "Willem van der Woude",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "acf0b94e-0b33-48af-afb8-4032ff8ce436",
+    "question": "What was the last period that Van der Woude served as rector magnificus of the University of Leiden? (A) 1934-1935. (B) 1941-1943. (C) 1945.",
+    "answer": "(C)",
+    "source_url": "https://en.wikipedia.org/wiki/Willem_van_der_Woude",
+    "source_title": "Willem van der Woude",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "1e6d8eef-2ad7-46cd-a5b0-32b1d0ec74e7",
+    "question": "What year was Catherine Bartho born?",
+    "answer": "1873",
+    "source_url": "https://en.wikipedia.org/wiki/Catherine_Bartho",
+    "source_title": "Catherine Bartho",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "d85a9482-64d9-48ec-985c-af26912e65d0",
+    "question": "What year was Catherine Bartho born?",
+    "answer": "1873",
+    "source_url": "https://en.wikipedia.org/wiki/Catherine_Bartho",
+    "source_title": "Catherine Bartho",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "a49cc39a-fea4-4453-a66c-21928e960c6d",
+    "question": "How many years after she was born did she make her first trip away from Russia when she was brought to Australia by J. C. Williamson?",
+    "answer": "2",
+    "source_url": "https://en.wikipedia.org/wiki/Catherine_Bartho",
+    "source_title": "Catherine Bartho",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "247948a5-228b-419f-9745-3c98b1ec24c4",
+    "question": "What year was Catherine Bartho born? (A) 1893. (B) 1893. (C) 1893.",
+    "answer": "(A)",
+    "source_url": "https://en.wikipedia.org/wiki/Catherine_Bartho",
+    "source_title": "Catherine Bartho",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "e43fc8a4-928e-479e-bd30-e2dabd7b693b",
+    "question": "What was the name of the company that used the artwork in their promotions?",
+    "answer": "BJP",
+    "source_url": "https://en.wikipedia.org/wiki/Chill_Guy",
+    "source_title": "Chill Guy",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "99359838-b98c-46aa-838d-0573499dc11b",
+    "question": "How many years after the artwork was published did it become viral?",
+    "answer": "1",
+    "source_url": "https://en.wikipedia.org/wiki/Chill_Guy",
+    "source_title": "Chill Guy",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "74f9a23a-dde2-4adc-a102-ce3c195009b0",
+    "question": "How did the artwork become viral?",
+    "answer": "a user on TikTok made a slideshow with the artwork",
+    "source_url": "https://en.wikipedia.org/wiki/Chill_Guy",
+    "source_title": "Chill Guy",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "c337d886-c336-4fcd-8f80-f6316854abaf",
+    "question": "What is the best title of the passage? (A) My new character. (B) Chill Guy. (C) My new character.",
+    "answer": "(C)",
+    "source_url": "https://en.wikipedia.org/wiki/Chill_Guy",
+    "source_title": "Chill Guy",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "d9ec34ed-6b52-4f8a-8a41-3f1bac1c1d55",
+    "question": "What team did Cerutti play for in the 1990 Argentine Basketball League?",
+    "answer": "Atenas",
+    "source_url": "https://en.wikipedia.org/wiki/Carlos_Cerutti",
+    "source_title": "Carlos Cerutti",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "9ffaef1f-8988-43d0-b04e-26411ed132f9",
+    "question": "Which team did Cerutti play for in the 1990 Argentine Basketball League?",
+    "answer": "Atenas",
+    "source_url": "https://en.wikipedia.org/wiki/Carlos_Cerutti",
+    "source_title": "Carlos Cerutti",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "7500f567-a828-4a63-bd66-032e2e8862d8",
+    "question": "How did Cerutti die?",
+    "answer": "car accident",
+    "source_url": "https://en.wikipedia.org/wiki/Carlos_Cerutti",
+    "source_title": "Carlos Cerutti",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "8459f697-832e-4a89-ad07-220ddd61f7f1",
+    "question": "What is the best title of the passage? (A) Cerutti's career. (B) Cerutti's death. (C) Cerutti's death.",
+    "answer": "(C)",
+    "source_url": "https://en.wikipedia.org/wiki/Carlos_Cerutti",
+    "source_title": "Carlos Cerutti",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "8f4f4e97-cd56-4572-99f2-9808405fb9d8",
+    "question": "What was the name of the school Holmes attended?",
+    "answer": "Hobart Technical College",
+    "source_url": "https://en.wikipedia.org/wiki/Edith_Lilla_Holmes",
+    "source_title": "Edith Lilla Holmes",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "2500ef97-cb3f-4c98-8ab1-83d0333790e3",
+    "question": "What was the name of the school where Holmes studied art?",
+    "answer": "Hobart Technical College",
+    "source_url": "https://en.wikipedia.org/wiki/Edith_Lilla_Holmes",
+    "source_title": "Edith Lilla Holmes",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "5df2a234-9c93-4ad1-84fa-28f2238c956f",
+    "question": "She was a teacher at the Hobart Technical College",
+    "answer": "",
+    "source_url": "https://en.wikipedia.org/wiki/Edith_Lilla_Holmes",
+    "source_title": "Edith Lilla Holmes",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "6fbb5beb-886c-4f97-8106-7751a6c6afb4",
+    "question": "What is the best title of the passage?",
+    "answer": "Edith Lilla Holmes",
+    "source_url": "https://en.wikipedia.org/wiki/Edith_Lilla_Holmes",
+    "source_title": "Edith Lilla Holmes",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "21f712ac-6c3f-4dc9-80e7-f362c33a197f",
+    "question": "What are the three types of muscle cells?",
+    "answer": "skeletal, smooth, and cardiac",
+    "source_url": "https://en.wikipedia.org/wiki/Muscle_cell",
+    "source_title": "Muscle cell",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "5406c821-0e6a-4aa8-ac41-207e92ef0af9",
+    "question": "What are the three types of muscle cells?",
+    "answer": "skeletal, smooth, and cardiac",
+    "source_url": "https://en.wikipedia.org/wiki/Muscle_cell",
+    "source_title": "Muscle cell",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "c1511f88-666c-4d20-9da1-05f0bb61ad8b",
+    "question": "How do smooth muscle cells control involuntary movements?",
+    "answer": "peristalsis contractions",
+    "source_url": "https://en.wikipedia.org/wiki/Muscle_cell",
+    "source_title": "Muscle cell",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "f3ec7151-70fd-4ac5-8102-79ba6eaa9d4f",
+    "question": "What is the most important characteristic of skeletal muscle cells?",
+    "answer": "muscle fiber",
+    "source_url": "https://en.wikipedia.org/wiki/Muscle_cell",
+    "source_title": "Muscle cell",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "d8736a26-b14c-47bb-9745-041658c07627",
+    "question": "What is the first type of authentication?",
+    "answer": "accepting proof of identity given by a credible person who has first-hand evidence that the identity is genuine",
+    "source_url": "https://en.wikipedia.org/wiki/Authentication",
+    "source_title": "Authentication",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "6013ab4a-32b7-443d-b137-9cffd5a118a7",
+    "question": "What is the first type of authentication?",
+    "answer": "accepting proof of identity given by a credible person who has first-hand evidence that the identity is genuine",
+    "source_url": "https://en.wikipedia.org/wiki/Authentication",
+    "source_title": "Authentication",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "cc134172-5d03-4581-9136-79e4d22b001c",
+    "question": "How does a computer system user verify their identity?",
+    "answer": "validating personal identity documents",
+    "source_url": "https://en.wikipedia.org/wiki/Authentication",
+    "source_title": "Authentication",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "5d9e6c1d-476a-41ab-b50d-f410c66f7502",
+    "question": "Question: What is the main idea of the passage?Options:A Authentication is the act of proving an assertion.B Authentication is the act of indicating a person or thing's identity.C Authentication is the process of verifying that identity.D Authentication is the act of proving an assertion.Answer:D",
+    "answer": "A",
+    "source_url": "https://en.wikipedia.org/wiki/Authentication",
+    "source_title": "Authentication",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "752779f2-f953-412e-9486-a211b0faf638",
+    "question": "What was the name of the team that Cronin played for?",
+    "answer": "Buffalo Beauts",
+    "source_url": "https://en.wikipedia.org/wiki/Mandy_Cronin",
+    "source_title": "Mandy Cronin",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "05623759-fffa-4a35-9235-e16a0e8dffcd",
+    "question": "What was the name of the organization that Cronin was a part of?",
+    "answer": "National Women's Hockey League",
+    "source_url": "https://en.wikipedia.org/wiki/Mandy_Cronin",
+    "source_title": "Mandy Cronin",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "826d48e1-173f-4d39-aa97-caa5c792de42",
+    "question": "She was the general manager of the National Women's Hockey League's (NWHL) Buffalo Beauts and Toronto Six, as well as one of the co-founders of the Canadian Women's Hockey League.",
+    "answer": "Mandy Cronin",
+    "source_url": "https://en.wikipedia.org/wiki/Mandy_Cronin",
+    "source_title": "Mandy Cronin",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "4b0b4729-519b-40ab-9e4a-1a1e268056ac",
+    "question": "What is the best title of the passage?",
+    "answer": "Mandy Cronin",
+    "source_url": "https://en.wikipedia.org/wiki/Mandy_Cronin",
+    "source_title": "Mandy Cronin",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "81e7d2c7-e8dd-4e27-943f-d077fc223ec4",
+    "question": "What is the base number?",
+    "answer": "6\u20138 mg KOH/g",
+    "source_url": "https://en.wikipedia.org/wiki/Total_base_number",
+    "source_title": "Total base number",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "4d6652be-52a0-4c71-a81f-cfda7e69b6b5",
+    "question": "What is the difference between the BN and the BN value?",
+    "answer": "BN is typically higher for marine grade lubricants, approximately 15\u201380 mg KOH/g",
+    "source_url": "https://en.wikipedia.org/wiki/Total_base_number",
+    "source_title": "Total base number",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "98afd27b-47a4-4c5c-bf0f-7e1efd200bb9",
+    "question": "How do I measure basicity?",
+    "answer": "Base number",
+    "source_url": "https://en.wikipedia.org/wiki/Total_base_number",
+    "source_title": "Total base number",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "4417c01f-0e6f-49c9-bbc0-9ec5c5e6062c",
+    "question": "What is the most important measurement in petroleum products?",
+    "answer": "Base number",
+    "source_url": "https://en.wikipedia.org/wiki/Total_base_number",
+    "source_title": "Total base number",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "587df6a3-2223-4f3d-a235-db7c28cecda4",
+    "question": "How many singles did IU have in total?",
+    "answer": "62",
+    "source_url": "https://en.wikipedia.org/wiki/IU_discography",
+    "source_title": "IU discography",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "5d4d9eda-0d8b-40d5-9619-e86851d5bfc3",
+    "question": "How many albums has IU released?",
+    "answer": "five",
+    "source_url": "https://en.wikipedia.org/wiki/IU_discography",
+    "source_title": "IU discography",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "38c046fe-8902-4319-85a6-641cd7689fb3",
+    "question": "How many singles did IU have?",
+    "answer": "sixty one",
+    "source_url": "https://en.wikipedia.org/wiki/IU_discography",
+    "source_title": "IU discography",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "abc95629-11e9-440c-bd20-6e905589d508",
+    "question": "Which of the following is true about IU?",
+    "answer": "South Korean singer-songwriter",
+    "source_url": "https://en.wikipedia.org/wiki/IU_discography",
+    "source_title": "IU discography",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "ff0355fe-5a29-4b0f-94b9-3b2877c3b9e2",
+    "question": "What is the nickname of the mascot that the Red Raiders carry?",
+    "answer": "The Masked Rider",
+    "source_url": "https://en.wikipedia.org/wiki/Guns_Up",
+    "source_title": "Guns Up",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "abbb4d9a-368a-499e-80b0-fcf0842b3bc8",
+    "question": "What is the nickname of the hand signal?",
+    "answer": "Guns Up",
+    "source_url": "https://en.wikipedia.org/wiki/Guns_Up",
+    "source_title": "Guns Up",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "d138f28a-cc57-4c19-af17-b79c872d6d40",
+    "question": "The idea is that the Red Raiders will figuratively shoot down their opponents.",
+    "answer": "The idea is that the Red Raiders will figuratively shoot down their opponents.",
+    "source_url": "https://en.wikipedia.org/wiki/Guns_Up",
+    "source_title": "Guns Up",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "20b4e78b-814c-45ea-ba30-98b8471d7c14",
+    "question": "What is the main idea of the passage?",
+    "answer": "Guns Up is the famous slogan and hand signal of Texas Tech University.",
+    "source_url": "https://en.wikipedia.org/wiki/Guns_Up",
+    "source_title": "Guns Up",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "cba6df11-95d3-4f39-9cec-e0fa63300dad",
+    "question": "What is the name of the enzyme that catalyzes the chemical reaction tetradecanoyl-CoA + glycylpeptide  displaystyle rightleftharpoons  CoA + N-tetradecanoylglycylpeptide?",
+    "answer": "glycylpeptide N-tetradecanoyltransferase",
+    "source_url": "https://en.wikipedia.org/wiki/Glycylpeptide_N-tetradecanoyltransferase",
+    "source_title": "Glycylpeptide N-tetradecanoyltransferase",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "b8c9c7b5-b206-4a2a-961d-449fc30d6c71",
+    "question": "Which enzyme is a glycylpeptide N-tetradecanoyltransferase?",
+    "answer": "tetradecanoyl-CoA:glycylpeptide N-tetradecanoyltransferase",
+    "source_url": "https://en.wikipedia.org/wiki/Glycylpeptide_N-tetradecanoyltransferase",
+    "source_title": "Glycylpeptide N-tetradecanoyltransferase",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "1a9f15f2-d1f0-4c43-b423-a96ea050137c",
+    "question": "What is the glycylpeptide N-tetradecanoyltransferase?",
+    "answer": "enzyme that catalyzes the chemical reaction",
+    "source_url": "https://en.wikipedia.org/wiki/Glycylpeptide_N-tetradecanoyltransferase",
+    "source_title": "Glycylpeptide N-tetradecanoyltransferase",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "3200d683-9df6-42bf-b4a7-a6a5b228e71b",
+    "question": "What is the main idea of the passage?",
+    "answer": "a glycylpeptide N-tetradecanoyltransferase (EC 2.3.1.97) is an enzyme that catalyzes the chemical reaction tetradecanoyl-CoA + glycylpeptide  displaystyle rightleftharpoons  CoA + N-tetradecanoylglycylpeptide Thus, the two substrates of this enzyme are tetradecanoyl-CoA and glycyl",
+    "source_url": "https://en.wikipedia.org/wiki/Glycylpeptide_N-tetradecanoyltransferase",
+    "source_title": "Glycylpeptide N-tetradecanoyltransferase",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "75a40f27-7c34-465c-bfad-7a3cdd50d51f",
+    "question": "What year did Elena receive a gold medal from the Moscow Conservatory?",
+    "answer": "1899",
+    "source_url": "https://en.wikipedia.org/wiki/Elena_Beckman-Shcherbina",
+    "source_title": "Elena Beckman-Shcherbina",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "194b3f5a-522e-4f16-aca4-dfce10517e20",
+    "question": "What year did Elena receive a gold medal from the Moscow Conservatory?",
+    "answer": "1899",
+    "source_url": "https://en.wikipedia.org/wiki/Elena_Beckman-Shcherbina",
+    "source_title": "Elena Beckman-Shcherbina",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "4d7ba4df-c210-4331-9ed1-8d6a34e14f5b",
+    "question": "how many years did she perform with Abram Jampolskij, Gregor Piatigorskij and with the Beethoven Quartet?",
+    "answer": "2",
+    "source_url": "https://en.wikipedia.org/wiki/Elena_Beckman-Shcherbina",
+    "source_title": "Elena Beckman-Shcherbina",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "e16e1f6f-c726-454d-87ee-8a06ba669cac",
+    "question": "What year did Elena begin performing with Abram Jampolskij? (A) From 1902. (B) From 1902. (C) From 1902.",
+    "answer": "(A)",
+    "source_url": "https://en.wikipedia.org/wiki/Elena_Beckman-Shcherbina",
+    "source_title": "Elena Beckman-Shcherbina",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "fc607e48-75df-4da5-8435-e2cc4518ba3d",
+    "question": "What is the name of the business that allows customers to trade cryptocurrencies or digital currencies for other assets?",
+    "answer": "A cryptocurrency exchange",
+    "source_url": "https://en.wikipedia.org/wiki/Cryptocurrency_exchange",
+    "source_title": "Cryptocurrency exchange",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "54fff16a-172f-42e6-b3e5-0eba654be363",
+    "question": "What is the difference between a cryptocurrency exchange and a DCE?",
+    "answer": "A cryptocurrency exchange, or a digital currency exchange (DCE), is a business that allows customers to trade cryptocurrencies or digital currencies for other assets, such as conventional fiat money or other digital currencies.",
+    "source_url": "https://en.wikipedia.org/wiki/Cryptocurrency_exchange",
+    "source_title": "Cryptocurrency exchange",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "1bfe744e-7cce-4b8a-8ec4-c02a6cfe940a",
+    "question": "How can a cryptocurrency exchange be a market maker?",
+    "answer": "typically takes the bid\u2013ask spreads as a transaction commission for its service or, as a matching platform, simply charges fees",
+    "source_url": "https://en.wikipedia.org/wiki/Cryptocurrency_exchange",
+    "source_title": "Cryptocurrency exchange",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "f300e243-b7af-421e-ad17-0751b5393558",
+    "question": "Question: What is the main idea of the passage?Options:A A cryptocurrency exchange is a business that allows customers to trade cryptocurrencies or digital currencies for other assets.B A cryptocurrency exchange is a business that allows customers to trade cryptocurrencies or digital currencies for other assets.C A cryptocurrency exchange is a business that allows customers to trade cryptocurrencies or digital currencies for other assets.D A cryptocurrency exchange is a business that allows customers to trade cryptocurrencies or digital currencies for other assets.Answer:D",
+    "answer": "A",
+    "source_url": "https://en.wikipedia.org/wiki/Cryptocurrency_exchange",
+    "source_title": "Cryptocurrency exchange",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "36c7650e-43c4-44e1-8d2d-284acbbeb4d5",
+    "question": "What is the name of the telenovela that Ot\u00e1vio falls in love with?",
+    "answer": "Masks",
+    "source_url": "https://en.wikipedia.org/wiki/M%C3%A1scaras",
+    "source_title": "M\u00e1scaras",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "63c444f8-ed2a-4a49-a4c5-f0f7465b47a7",
+    "question": "What is the name of the character Ot\u00e1vio falls in love with?",
+    "answer": "Maria",
+    "source_url": "https://en.wikipedia.org/wiki/M%C3%A1scaras",
+    "source_title": "M\u00e1scaras",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "c1133992-1619-4d3f-9e7c-19f227807247",
+    "question": "Why does Ot\u00e1vio decide to start life with another identity?",
+    "answer": "the kidnapping has to do with a criminal organization led by Big Blond",
+    "source_url": "https://en.wikipedia.org/wiki/M%C3%A1scaras",
+    "source_title": "M\u00e1scaras",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "afb939fe-99c1-4eb9-b3b9-cf8b5e4c0e60",
+    "question": "What is the main idea of the passage?",
+    "answer": "M\u00e1scaras (English: Masks) is a Brazilian telenovela produced and broadcast by RecordTV.",
+    "source_url": "https://en.wikipedia.org/wiki/M%C3%A1scaras",
+    "source_title": "M\u00e1scaras",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "ad991dc6-3d5e-4f9f-afb8-82f20bd183b5",
+    "question": "What was the name of the church that Taylor was appointed to serve as Assisting Bishop in 2020?",
+    "answer": "Episcopal Diocese of Virginia",
+    "source_url": "https://en.wikipedia.org/wiki/G._Porter_Taylor",
+    "source_title": "G. Porter Taylor",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "613cf793-2f30-48ee-9400-03810f8cc44a",
+    "question": "What was the name of the college that Taylor attended?",
+    "answer": "University of North Carolina at Chapel Hill",
+    "source_url": "https://en.wikipedia.org/wiki/G._Porter_Taylor",
+    "source_title": "G. Porter Taylor",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "27a824ec-b832-419f-b8c8-bc3c4c899ff8",
+    "question": "How did Taylor become the fifth Bishop of the Diocese of Virginia?",
+    "answer": "he was consecrated by Robert Carroll Johnson Jr., Robert Hodges Johnson, Frank Allan, Mich",
+    "source_url": "https://en.wikipedia.org/wiki/G._Porter_Taylor",
+    "source_title": "G. Porter Taylor",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "993ecac4-86f3-40e6-a5fe-6f1caeca1c96",
+    "question": "What is the most important event in Taylor's life?",
+    "answer": "He was consecrated as the fifth Bishop of the Diocese of Western North Carolina on September 18, 2004.",
+    "source_url": "https://en.wikipedia.org/wiki/G._Porter_Taylor",
+    "source_title": "G. Porter Taylor",
+    "question_type": "multi-hop"
+  },
+  {
+    "question_id": "b5f44e67-44fc-4495-942c-0d149d6ace1b",
+    "question": "How many seats did the Progressive Conservative Party win?",
+    "answer": "19",
+    "source_url": "https://en.wikipedia.org/wiki/2007_Manitoba_general_election",
+    "source_title": "2007 Manitoba general election",
+    "question_type": "factual"
+  },
+  {
+    "question_id": "a9364922-a446-4b7a-82ac-eadb7c30701d",
+    "question": "How many seats did the Progressive Conservative Party win?",
+    "answer": "19",
+    "source_url": "https://en.wikipedia.org/wiki/2007_Manitoba_general_election",
+    "source_title": "2007 Manitoba general election",
+    "question_type": "comparative"
+  },
+  {
+    "question_id": "f4413d2d-3457-437b-8e8e-c6908accb50c",
+    "question": "How many seats did the Progressive Conservative Party win?",
+    "answer": "19",
+    "source_url": "https://en.wikipedia.org/wiki/2007_Manitoba_general_election",
+    "source_title": "2007 Manitoba general election",
+    "question_type": "inferential"
+  },
+  {
+    "question_id": "b29bc751-34c0-455d-9ba4-cf3b19379d17",
+    "question": "What is the main idea of the passage?",
+    "answer": "The 2007 Manitoba general election was held on May 22, 2007 to elect Members of the Legislative Assembly of the Province of Manitoba, Canada. It was won by the New Democratic Party, which won 36 seats out of 57.",
+    "source_url": "https://en.wikipedia.org/wiki/2007_Manitoba_general_election",
+    "source_title": "2007 Manitoba general election",
+    "question_type": "multi-hop"
+  }
+]
