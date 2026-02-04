@@ -20,9 +20,10 @@ A Hybrid Retrieval-Augmented Generation (RAG) system using:
 
 ```bash
 streamlit run app.py
+```
 
 ## Run Pipeline
 
 ```bash
 python pipeline.py
-
+```
