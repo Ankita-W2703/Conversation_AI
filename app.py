@@ -16,7 +16,7 @@ from generation import generate_answer
 # Page config (must be FIRST Streamlit call)
 # =====================================================
 st.set_page_config(
-    page_title="Hybrid RAG – FLAN-T5",
+    page_title="Hybrid RAG - FLAN-T5",
     layout="wide"
 )
 
@@ -45,7 +45,7 @@ with st.spinner("Initializing retriever (loading documents & indexes)..."):
 # UI HEADER
 # =====================================================
 st.title("Hybrid RAG System")
-st.caption("Type a question and click Submit to test input → output")
+st.caption("Type a question and click Submit to test the RAG system.")
 
 
 # =====================================================
@@ -75,7 +75,7 @@ if submit_clicked:
 
     # Validate AFTER submit (required for forms)
     if not query.strip():
-        st.warning("⚠️ Please enter a question before submitting.")
+        st.warning("Please enter a question before submitting.")
         st.stop()
 
     st.session_state.busy = True

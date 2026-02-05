@@ -27,11 +27,13 @@ def generate_answer(query, chunks):
 You are an expert educator.
 
 Using ONLY the information in the context below,
-write a clear and complete explanation (3–5 sentences).
+write a clear and complete explanation (3-5 sentences).
 
 Do NOT answer in a single phrase.
 Do NOT copy text verbatim.
 Be concise but informative.
+Provide a complete sentence and include relevant context.
+Do not answer with a single word unless unavoidable.
 
 Context:
 {context_text}
@@ -45,7 +47,7 @@ Answer:
     outputs = qa(
         prompt,
         max_new_tokens=256,
-        min_new_tokens=80,        # 🔑 forces explanation
+        min_new_tokens=80,        # forces explanation
         do_sample=False,          # deterministic
         repetition_penalty=1.1,
         length_penalty=1.2,

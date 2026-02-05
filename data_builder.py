@@ -55,7 +55,7 @@ import random
 #             break
 
 # # Save ONLY URLs (requirement)
-# with open("fixed_urls.json", "w") as f:
+# with open("data/fixed_urls.json", "w") as f:
 #     json.dump([a["url"] for a in fixed_articles], f, indent=2)
 
 import requests
@@ -180,6 +180,6 @@ for article in corpus:
             "text": chunk
         })
 print("Total chunks created:", len(processed_chunks))
-print("1")
-with open("wikipedia_corpus_chunks.json", "w") as f:
+
+with open("data/wikipedia_corpus_chunks.json", "w") as f:
     json.dump(processed_chunks, f, indent=2)

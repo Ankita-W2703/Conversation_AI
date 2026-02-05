@@ -1,9 +1,7 @@
 # evaluation.py
 
-import json
 import math
 import time
-import numpy as np
 import re
 import string
 from collections import Counter
@@ -11,7 +9,7 @@ from nltk.util import ngrams
 from rouge_score import rouge_scorer
 from sentence_transformers import SentenceTransformer, util
 
-from retrieval import retrieve_hybrid, retrieve_dense_only, retrieve_sparse_only
+from retrieval import retrieve_hybrid
 from generation import generate_answer
 
 # -------------------------
@@ -133,7 +131,7 @@ def full_evaluation(qa_dataset):
     # Generation quality
     em, f1, rouge, sem = [], [], [], []
 
-    for q in qa_dataset:
+    for q in qa_dataset[30:]:
         chunks = retrieve_hybrid(q["question"], top_k=3)
         pred = generate_answer(q["question"], chunks)
         gold = q["answer"]

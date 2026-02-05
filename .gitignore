@@ -13,7 +13,7 @@ venv/
 Thumbs.db
 
 # Large generated files (optional)
-reports/*.csv
+# reports/*.csv
 
 # Streamlit cache
 .streamlit/

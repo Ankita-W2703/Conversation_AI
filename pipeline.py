@@ -6,7 +6,8 @@ import time
 from pathlib import Path
 from tqdm import tqdm
 
-from qa_generation import generate_answer1
+from retrieval import get_processed_chunks 
+from generation import generate_answer
 from evaluation import full_evaluation
 from report import generate_pdf_report, generate_html_report
 
@@ -33,7 +34,8 @@ def run_pipeline():
     # -------------------------
     for qa in tqdm(qa_dataset, desc="Generating answers"):
         start = time.time()
-        pred, context = generate_answer1(qa["question"])
+        chunks = get_processed_chunks()
+        pred = generate_answer(qa["question"], chunks)
         latency = time.time() - start
 
         predictions.append({

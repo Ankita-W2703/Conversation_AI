@@ -52,7 +52,7 @@ def load_retriever():
     if _faiss_index is not None and _bm25 is not None:
         return
 
-    print("🔧 Initializing retriever...")
+    print("Initializing retriever...")
 
     ensure_nltk()
     _stop_words = set(stopwords.words("english"))
@@ -71,7 +71,7 @@ def load_retriever():
     embeddings = _embedder.encode(
         texts,
         convert_to_numpy=True,
-        show_progress_bar=False   # ✅ MUST be False on Streamlit Cloud
+        show_progress_bar=False   # MUST be False on Streamlit Cloud
     )
 
     embeddings = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
@@ -99,7 +99,7 @@ def load_retriever():
 
     _bm25 = BM25Okapi(tokenized_texts)
 
-    print("✅ Retriever ready")
+    print("Retriever ready")
 
 
 # =====================================================

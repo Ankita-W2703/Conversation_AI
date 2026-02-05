@@ -8,7 +8,7 @@ def generate_pdf_report(metrics, filename="report.pdf"):
     metrics: dict
     filename: str or Path
     """
-    filename = str(filename)  # 🔑 FIX: Path → str
+    filename = str(filename)
 
     doc = SimpleDocTemplate(filename)
     styles = getSampleStyleSheet()
@@ -22,7 +22,7 @@ def generate_pdf_report(metrics, filename="report.pdf"):
     doc.build(content)
 
 def generate_html_report(metrics, filename="report.html"):
-    filename = str(filename)  # safe for consistency
+    filename = str(filename)
 
     html = "<html><body><h1>Hybrid RAG Evaluation Report</h1><ul>"
     for k, v in metrics.items():
